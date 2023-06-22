@@ -74,7 +74,7 @@
     height: 300px;
     border-radius: 25px;
     margin-top: 20px;
-    background-color: #020719;
+    background-color: #EDF4FB;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,18 +88,29 @@
     align-items: center;
 }
 
+.contenedor-desc{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    background-color:#F2F6F8;
+}
+
 .titulo-desc{
     margin: 20px;
 }
 
+.separador{
+    margin: 10px;
+}
+
 .titulo-desc > h3{
-    color: white;
+    color: black;
 }
 
 #separador{
     display: inline-block;
     content: "";
-    background: linear-gradient(#F9ADFF,#B94DFF);
+    background: #91979D;
     width: 80%;
     height: 2px;
     margin-bottom: 10px;
@@ -108,8 +119,9 @@
 
 .descripcion{
     width: 80%;
-    color: white;
+    color: black;
 }
+
 
 .texto{
     margin: auto;
@@ -120,7 +132,7 @@
 
 .texto > h3{
     font-family: 'Geologica', sans-serif;
-    background: linear-gradient(#F9ADFF,#B94DFF);
+    background: #FFFFFF;
     -webkit-background-clip: text;
     color: transparent; 
 }
@@ -129,7 +141,7 @@
     width: 40%;
     height: 30px;
     border-radius: 25px;
-    background-color: #F1F8FF;
+    background-color: #407DCE;
     
 }
 
@@ -140,4 +152,24 @@ a{
 
 a > h4{
     padding: 4px;
+}
+
+
+.img_deg{
+    float: left;
+    width: 2.5%;
+}
+
+.img_deg2{
+    float: center;
+    width: 50%;
+}
+
+.img_deg3{
+    float: left;
+    width: 10%;
+}
+
+.color-textWhite{
+    color: #FFFFFF;
 }
