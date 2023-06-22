@@ -1,3 +1,5 @@
+
+
 <div align="center">
     <img src="assets/img/uca%20vision.svg" width="196">
     <h1>UCA Vision Website</h1>
@@ -16,40 +18,14 @@
 </div>
 
 ## Detalles
-
 Esta página es la presentación oficial del producto "[UCA VISION / UCA VIRTUAL GUIDE](https://github.com/VarEros/UCAVirtualGuide)", desarrollado bajo el motor Unity con C#. Este producto es una guía parcial por el campus universitario, demostrando el músculo de Ingeniería en Sistemas de Información.
 
-## Contribuyentes
+## Desarrolladores
 
 <div align="center">
-<table width="100%">
-
-<tr>
-    <th>Usuario</th>
-    <th>Nombre</th>
-</tr>
-
-<tr>
-    <th><img width="64" src="https://github.com/davidquintr.png"></th>
-    <th><a href="https://github.com/davidquintr">DavidQuintr</a></th>
-</tr>
-
-<tr>
-    <th><img width="64" src="https://github.com/Poncka.png"></th>
-    <th><a href="https://github.com/Poncka">Poncka</a></th>
-</tr>
-
-<tr>
-    <th><img width="64" src="https://github.com/VarEros.png"></th>
-    <th><a href="https://github.com/VarEros">VarEros</a></th>
-</tr>
-
-<tr>
-    <th><img width="64" src="https://github.com/RiuskeKMS.png"></th>
-    <th><a href="https://github.com/RiuskeKMS">RiuskeKMS</a></th>
-</tr>
-
-</table>
-
+    <a href="https://github.com/davidquintr"><img width="64" src="https://github.com/davidquintr.png"></a>
+    <a href="https://github.com/Poncka"><img width="64" src="https://github.com/Poncka.png"></a>
+    <a href="https://github.com/VarEros"><img width="64" src="https://github.com/VarEros.png"></a>
+    <a href="https://github.com/RiuskeKMS"><img width="64" src="https://github.com/RiuskeKMS.png"></a>
 </div>
 
