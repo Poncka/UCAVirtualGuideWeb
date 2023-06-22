@@ -1,15 +1,23 @@
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
 *{
    margin: 0px;
    color: #423F3F;
    font-family: 'Roboto', sans-serif;
 }
 
+.geologica{
+    font-family: 'Geologica', sans-serif;
+}
+
 #main__header{
     position: sticky;
     top: 0;
     height: 40px;
-    font-size: 20px;
     backdrop-filter:  saturate(180%) blur(10px);;
 }
 
@@ -19,13 +27,15 @@
     align-items: center;
     margin-top: 80px;
     text-align: center;
-    font-size: 20px;
+}
+
+#descripcion > h1{
+    font-family: 'Tilt Prism', cursive;
 }
 
 .introduccion{
     width: 70%;
     text-align: left;
-    font-size: 20px;
     margin: 40px;
 }
 
@@ -66,14 +76,6 @@
     justify-content: space-around;
 }
 
-.titulo-desc{
-    margin: 20px;
-}
-
-.titulo-desc > h3{
-    color: white;
-}
-
 .contenedor-titulo{
     display: flex;
     flex-direction: column;
@@ -81,25 +83,12 @@
     align-items: center;
 }
 
-.descripcion{
-    width: 80%;
+.titulo-desc{
+    margin: 20px;
+}
+
+.titulo-desc > h3{
     color: white;
-}
-
-
-
-.texto{
-    margin: auto;
-    padding: 20px;
-    font-size: 18px;
-    text-align: center;
-    
-}
-
-.texto > h3{
-    background: linear-gradient(#F9ADFF,#B94DFF);
-    -webkit-background-clip: text;
-    color: transparent; 
 }
 
 #separador{
@@ -110,6 +99,25 @@
     height: 2px;
     margin-bottom: 10px;
     margin-top: 0;
+}
+
+.descripcion{
+    width: 80%;
+    color: white;
+}
+
+.texto{
+    margin: auto;
+    padding: 20px;
+    
+    text-align: center; 
+}
+
+.texto > h3{
+    font-family: 'Geologica', sans-serif;
+    background: linear-gradient(#F9ADFF,#B94DFF);
+    -webkit-background-clip: text;
+    color: transparent; 
 }
 
 #boton-descarga{
