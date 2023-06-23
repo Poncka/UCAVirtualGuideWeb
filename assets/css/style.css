@@ -22,7 +22,7 @@
     position: sticky;
     top: 0;
     height: 40px;
-    backdrop-filter:  saturate(180%) blur(10px);;
+    backdrop-filter:  saturate(0%) blur(10px);;
 }
 
 
@@ -30,12 +30,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 35px;
     text-align: center;
 }
 
 .virtual-logo{
-    width: 40%;
+    width: 20%;
 }
 
 #descripcion > h1{
@@ -43,15 +43,13 @@
 }
 
 .introduccion{
-    width: 70%;
-    text-align: left;
+    text-align: center;
     margin: 40px;
 }
 
 .contenedor{
     display: flex;
     flex-direction: column;
-    width: 70%;
     margin: 20px auto;
     padding: 10px;
 }
@@ -176,7 +174,7 @@ a > h4{
 
 .img_deg{
     float: left;
-    width: 2.5%;
+    height: 100%;
 }
 
 .img_deg2{
