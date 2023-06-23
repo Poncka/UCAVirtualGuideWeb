@@ -25,6 +25,18 @@
     backdrop-filter:  saturate(180%) blur(10px);;
 }
 
+#sub__header{
+    padding-inline: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px -5px 10px black;
+    position: sticky;
+    background-color: #FFFFFF;
+    top: 0;
+    height: 40px;
+    backdrop-filter:  saturate(180%) blur(10px);;
+}
+
 #descripcion{
     display: flex;
     flex-direction: column;
@@ -123,6 +135,7 @@
 }
 
 
+
 .texto{
     margin: auto;
     padding: 20px;
@@ -162,7 +175,7 @@ a > h4{
 
 .img_deg2{
     float: center;
-    width: 50%;
+    width: 80%;
 }
 
 .img_deg3{
