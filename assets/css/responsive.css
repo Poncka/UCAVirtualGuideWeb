@@ -1,0 +1,32 @@
+@media only screen and (max-width: 480px) {
+
+    .virtual-logo{
+        width: 40%;
+    }
+
+    .introduccion > p{
+        font-size: 14px;
+    }
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor-desc{
+        width: 80%;
+    }
+
+    .contenedor-desc > p{
+        font-size: 14px;
+    }
+
+   
+}
+
+@media only screen and (max-width: 410px) {
+
+    #boton-descarga{
+        width: 80%;
+    }
+}
