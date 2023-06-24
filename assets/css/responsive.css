@@ -29,4 +29,13 @@
     #boton-descarga{
         width: 80%;
     }
+    
+    .contenedor-tarjetas{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tarjetas{
+        height: 250px;
+    }
 }
